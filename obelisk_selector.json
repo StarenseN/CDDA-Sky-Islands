@@ -104,7 +104,7 @@
           "om_terrain_match_type": "CONTAINS",
           "search_range": 1200,
           "min_distance": 200,
-          "reveal_radius": { "global_val": "var", "var_name": "scoutingdistancelanding", "default": 0 },
+          "reveal_radius": { "global_val": "scoutingdistancelanding", "default": 0 },
           "z": 0,
           "random": true
         }
@@ -124,7 +124,7 @@
           "om_terrain_match_type": "CONTAINS",
           "search_range": 1200,
           "min_distance": 200,
-          "reveal_radius": { "global_val": "var", "var_name": "scoutingdistancelanding", "default": 0 },
+          "reveal_radius": { "global_val": "scoutingdistancelanding", "default": 0 },
           "z": 0,
           "random": true
         }
@@ -145,7 +145,7 @@
           "om_terrain_match_type": "CONTAINS",
           "search_range": 1200,
           "min_distance": 200,
-          "reveal_radius": { "global_val": "var", "var_name": "scoutingdistancelanding", "default": 0 },
+          "reveal_radius": { "global_val": "scoutingdistancelanding", "default": 0 },
           "z": -1,
           "random": true
         },
@@ -168,7 +168,7 @@
           "om_terrain_match_type": "CONTAINS",
           "search_range": 1200,
           "min_distance": 200,
-          "reveal_radius": { "global_val": "var", "var_name": "scoutingdistancelanding", "default": 0 },
+          "reveal_radius": { "global_val": "scoutingdistancelanding", "default": 0 },
           "z": 1,
           "random": true
         },
@@ -191,7 +191,7 @@
           "om_terrain_match_type": "CONTAINS",
           "search_range": 1200,
           "min_distance": 200,
-          "reveal_radius": { "global_val": "var", "var_name": "scoutingdistancelanding", "default": 0 },
+          "reveal_radius": { "global_val": "scoutingdistancelanding", "default": 0 },
           "z": -2,
           "random": true
         },
