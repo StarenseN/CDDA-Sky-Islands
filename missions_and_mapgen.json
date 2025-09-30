@@ -477,7 +477,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 3 },
@@ -514,7 +514,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 4 },
@@ -559,7 +559,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 4 },
@@ -604,7 +604,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 5 },
@@ -657,7 +657,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 5 },
@@ -710,7 +710,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 8 },
@@ -745,7 +745,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 10 },
@@ -782,7 +782,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 10 },
@@ -827,7 +827,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 12 },
@@ -872,7 +872,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 12 },
@@ -907,7 +907,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 9 },
@@ -945,7 +945,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 12 },
@@ -978,7 +978,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 9 },
@@ -1011,7 +1011,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 6 },
@@ -1050,7 +1050,7 @@
       "effect": [
         { "u_adjust_var": "missionswon", "adjustment": 1 },
         {
-          "arithmetic": [
+          "math": [
             { "global_val": "totalbonus" },
             "=",
             { "const": 12 },
