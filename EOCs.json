@@ -205,7 +205,7 @@
     "type": "effect_on_condition",
     "id": "EOC_youdied",
     "//": "This EOC is called when the player dies.  Before anything else happens, it checks if the player has a lifeshield mote.  If so, it warps you home safe and sound, counting as neither a loss nor a victory, and all your stuff comes with you.  Otherwise, it moves on to other death checks below.",
-    "eoc_type": "PREVENT_DEATH",
+
     "condition": { "u_has_item": "warphome" },
     "effect": [
       { "run_eocs": [ "EOC_homewardmote", "EOC_healall" ] },
@@ -353,7 +353,7 @@
     "type": "effect_on_condition",
     "id": "scenario_zone_begins",
     "//": "This EOC is triggered when the Warper scenario begins.  It initializes a few variables, and memorizes your spawn location for resurrection just in case you somehow die before using the warp obelisk.  Also learns your spell for emergencies.",
-    "eoc_type": "SCENARIO_SPECIFIC",
+
     "effect": [
       {
         "u_message": "Welcome to Sky Islands.\n\nSpeak to the Heart of the Island to get your bearings, accept missions, manage upgrades, change your difficulty settings, and more.",
@@ -669,7 +669,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_skyisland_versioncheck",
-    "eoc_type": "EVENT",
+
     "required_event": "game_load",
     "//": "On loading a game, checks if the save was made using an old version of this mod. If so, tries to update it with the necessary new items and variables. UPDATE THE NUMBER IN THE CONDITION BELOW AS VERSIONS UPDATE, THAT'S WHAT DETERMINES WHAT THE OFFICIAL CURRENT VERSION OF THIS MOD IS.",
     "condition": { "math": [ "versionupdate", "!=", "1" ] },
@@ -695,7 +695,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_skyisland_versionupdate",
-    "eoc_type": "EVENT",
+
     "required_event": "game_load",
     "//": "On loading a game, checks if the save was made using an old version of this mod. If so, tries to update it with the necessary new items and variables.",
     "condition": { "math": [ "versionupdate", "!=", "1" ] },
