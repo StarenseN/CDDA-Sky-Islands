@@ -6,7 +6,7 @@
     "condition": { "math": [ "has_set_difficulty", "==", "0" ] },
     "effect": [
       {
-        "u_message": "You haven't selected a difficulty.  This could be because you're playing an old save.\n\nYour current difficulty has been set to Normal.  In this setting, you will have 4 hours in every expedition to reach the exit and leave safely.  After this, warp sickness sets in and applies heavy debuffs until you exit.  After 6 hours, warp disintegration begins, and you will rapidly lose health until you exit or die.",
+        "u_message": "You haven't configured expedition parameters.  This could be from an older save file.\n\nYour parameters have been set to Standard.  In this configuration, you have 4 hours per expedition to reach the extraction point and return safely.  After this, anomaly sickness sets in, causing severe debuffs until you extract.  After 6 hours, molecular breakdown begins, and you will rapidly lose health until you extract or die."
         "popup": true
       },
       { "run_eocs": [ "EOC_difficultycheck" ] }
@@ -21,7 +21,7 @@
 	  { "u_add_effect": "warpcloak", "intensity": 1, "duration": { "global_val": "var", "var_name": "invistime", "default": "3 s" } },
       {
         "u_teleport": { "global_val": "OM_missionspot" },
-        "fail_message": "It seems the portal couldn't find a valid location.",
+        "fail_message": "The spatial anomaly matrix couldn't lock onto a valid Zone location."
         "force": true
       },
       { "run_eocs": [ "EOC_safely_landed" ] }

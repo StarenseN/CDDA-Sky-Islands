@@ -1,25 +1,25 @@
 [
   {
     "type": "scenario",
-    "id": "scenario_warper",
-    "name": "Warper",
+    "id": "scenario_zone_stalker",
+    "name": "Zone Stalker",
     "flags": [ "LONE_START", "CHALLENGE" ],
     "points": 0,
-    "description": "As if the world ending wasn't enough, it seems some kind of extradimensional powers that be have taken an interest in you.  You have been placed on a floating island high above the Earth, safe but isolated.  Only by using the reality-bending powers of warp technology can you visit the world below in brief, randomly-targeted excursions.  Venture down, gather supplies, and return with only what you can carry to upgrade your home base and your stash over time.  The powers of the warp make you unable to ever truly die, so on failing such an expedition, you will simply lose all items and equipment you were carrying and be swiftly returned home at low health.",
-    "start_name": "Warper",
-    "allowed_locs": [ "sloc_skyisland" ],
-    "eoc": [ "scenario_warp_begins" ]
+    "description": "You are a Stalker - one of the brave (or foolhardy) individuals who venture into the Chernobyl Exclusion Zone in search of artifacts and fortune.  Your base of operations is a secret underground laboratory equipped with experimental spatial anomaly technology.  This allows you to teleport to random locations throughout the Zone for brief expeditions.  The Zone's anomalous fields prevent true death - if you perish, you'll be reconstructed at the lab, though you'll lose all your equipment.  Hunt artifacts, complete faction jobs, and build your reputation in the Zone.",
+    "start_name": "Zone Stalker",
+    "allowed_locs": [ "sloc_zone_lab" ],
+    "eoc": [ "scenario_zone_begins" ]
   },
   {
     "type": "start_location",
-    "id": "sloc_skyisland",
-    "name": "Sky Island",
+    "id": "sloc_zone_lab",
+    "name": "Zone Laboratory",
     "terrain": [ "sky_island_core" ]
   },
   {
     "type": "SCENARIO_BLACKLIST",
     "subtype": "whitelist",
     "//": "Makes it so you can't choose any other scenario in this mode.",
-    "scenarios": [ "scenario_warper" ]
+    "scenarios": [ "scenario_zone_stalker" ]
   }
 ]

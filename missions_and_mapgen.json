@@ -7,11 +7,11 @@
     "effect": [
 	  { "u_add_effect": "warpcloak", "intensity": 1, "duration": { "global_val": "var", "var_name": "invistime", "default": "60 s" } },
       {
-        "u_message": "You're still materializing and not fully visible yet.  In about <global_val:invistime> seconds, the world will be able to see you, so if you were warped into danger, now's your chance to get to cover.",
+        "u_message": "You're still phase-shifting from the teleportation matrix.  In about <global_val:invistime> seconds, you'll fully materialize in the Zone, so if you've appeared in danger, now's your chance to reach cover."
         "popup": false
       },
       {
-        "u_message": "You've arrived!\nPress a key when ready and random missions will be generated for this expedition.  This may take another minute.",
+        "u_message": "Teleportation successful!\nPress a key when ready and the laboratory will upload your mission parameters.  This may take another minute."
         "popup": true
       },
       { "u_add_trait": "awayfromhome" },
@@ -41,7 +41,7 @@
     ],
 	"false_effect": [
       {
-        "u_message": "Something went wrong. The game could not find a suitable teleport location. Please try using the obelisk again.",
+        "u_message": "Spatial anomaly matrix error. Unable to lock onto a valid Zone location. Please recalibrate the teleportation system."
         "popup": true
       }
 	]

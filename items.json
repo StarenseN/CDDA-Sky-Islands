@@ -4,8 +4,8 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "consumption_effect_on_conditions": [ "EOC_healall" ],
-    "name": { "str": "quickheal pill" },
-    "description": "This pseudomagical pill will heal all your damaged parts, but only if swallowed while on your sanctuary island.  No reason to bring this into the field.",
+    "name": { "str": "medkit injector" },
+    "description": "An advanced medical injector enhanced with Zone artifacts.  It will rapidly heal all injuries, but only functions within the laboratory's anomalous field.  Useless in the field, but invaluable at base."
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "panacea",
@@ -223,9 +223,9 @@
   {
     "type": "ARMOR",
     "id": "warphaulbag",
-    "name": { "str": "warped hauler's harness", "str_pl": "warped hauler's harnesses" },
+    "name": { "str": "artifact gravity harness", "str_pl": "artifact gravity harnesses" },
     "copy-from": "warpbag_base",
-    "description": "A looped pair of shimmering blue-black straps that can be worn over the shoulders like a harness.  They can snugly fit a single item of nearly any size in comfort, and any burdens carried here feel twice as light. Ideal for squeezing one more bulky item home through the exit when your hands are already full, or even some container packed full of other items! Just beware you don't break your back doing it.",
+    "description": "An experimental harness incorporating Zone artifacts that manipulate gravitational fields.  This advanced Stalker equipment can secure a single item of nearly any size and make it feel twice as light.  Perfect for hauling massive loot through the spatial anomaly portal, though you should still be careful not to overextend yourself."
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -244,8 +244,8 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "consumption_effect_on_conditions": [ "EOC_warpextender" ],
-    "name": { "str": "earthbound pill" },
-    "description": "This pseudomagical pill extends the amount of time you can stay earthside by 4 pulses, or about 50% of a normal trip.  They're precious, but should help buy time for a difficult extract.",
+    "name": { "str": "anomaly stabilizer" },
+    "description": "A rare chemical compound derived from Zone artifacts that can temporarily stabilize the spatial anomaly field in your body.  Extends your time in the Zone by 4 pulses, roughly 50% longer than normal.  Extremely valuable and should be saved for emergency extractions."
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "panacea",
@@ -259,9 +259,9 @@
   {
     "id": "warphome",
     "type": "TOOL",
-    "name": { "str": "homeward mote" },
+    "name": { "str": "emergency beacon" },
     "use_action": { "type": "effect_on_conditions", "description": "A hasty escape.", "effect_on_conditions": [ "EOC_homewardmote" ] },
-    "description": "Though visibly little more than a glowing dustbunny, this strange ethereal mote of warp essence reveals, on closer inspection, something more.  A tiny, twisting, half-visible thread of shimmering bluish-purple trails away into the sky and far out of sight, unimpeded by any obstacles.\n\nTaking this rare and valuable artifact with you on an expedition is essentially buying life insurance.  If you die with this mote in your inventory, you will instead be restored to full health and brought home, WITH all items and equipment carried.  But this effect will only last for a single expedition.  Even if you extract safely, any and all motes carried on your person when you return home will be DESTROYED.",
+    "description": "A compact emergency beacon containing a concentrated spatial anomaly matrix.  Despite its small size, it maintains a quantum link to your laboratory's reconstruction chamber.  This is essentially life insurance for Stalkers - if you die with this device, it will trigger an emergency extraction, reconstructing you at base with all your equipment intact.  However, the beacon is consumed whether you die or extract safely, making it a one-use-only safety net."
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "fishing_hook_basic",
@@ -273,8 +273,8 @@
   {
     "id": "warp_carrier",
     "type": "TOOL",
-    "name": { "str": "warped animal carrier" },
-    "description": "A hand-sized cage with a shimmering portal at its aperture.  Despite being shaped more like a cat carrier, the power of warp enables it to capture creatures far bigger than you.  This may be your best bet for bringing animals home to your island sanctuary.  Activate to capture an adjacent animal, or to release a carried animal.",
+    "name": { "str": "anomalous specimen cage" },
+    "description": "A specialized containment device using spatial compression anomalies.  Though compact, it can capture and safely transport mutant creatures much larger than itself through the Zone's dimensional instabilities.  Essential equipment for any Stalker interested in studying or relocating Zone wildlife.  Use to capture adjacent creatures or release contained specimens."
     "weight": "1000 g",
     "volume": "5 L",
     "material": [ "alien_resin" ],
@@ -287,8 +287,8 @@
   },
   {
     "id": "warp_autodoc_inert",
-    "name": { "str": "Autodoc copyplate (inert)", "str_pl": "Autodoc copyplates (inert)" },
-    "description": "This strange obsidian-colored plate is capable of mimicking the advanced tech found within a modern Autodoc, and can be used to create a working copy at your sanctuary.  However, it is inert in its current state and must first be imprinted on a working Autodoc.  To do so, find an Autodoc during an expedition and use the construction menu to imprint this plate.",
+    "name": { "str": "Medical scanner template (inactive)", "str_pl": "Medical scanner templates (inactive)" },
+    "description": "An adaptive technology scanner made from Zone artifacts and pre-war electronics.  It can analyze and replicate advanced medical equipment like Autodocs for installation in your laboratory.  Currently inactive - you must first interface it with a working Autodoc in the field using the construction menu to imprint its specifications."
     "type": "GENERIC",
     "symbol": ")",
     "color": "light_cyan",
@@ -387,7 +387,7 @@
     "name": { "str_sp": "material token" },
     "type": "AMMO",
     "copy-from": "warptoken",
-    "description": "A very tiny disc-shaped blue wafer. It seems to shift in your grasp, feeling one moment like a grain of sand, then a sharp metal fragment, then a wooden splinter. These miniature tokens are rewarded for surviving a raid, and can be crafted on your island for a large supply of common resources by using infinity nodes as a catalyst."
+    "description": "A compressed data disc containing molecular blueprints for common materials.  The disc's anomalous properties make it feel like different substances as you handle it.  Earned by surviving Zone expeditions, these can be processed at your laboratory's fabrication stations to produce bulk resources."
   },  
   {
     "id": "warp_labs_catalyst",
